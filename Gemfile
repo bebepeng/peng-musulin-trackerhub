@@ -16,6 +16,7 @@ gem 'coffee-rails', '~> 4.0.0'
 
 group :test, :development do
   gem 'rspec-rails', '~> 2.14.2'
+  gem 'dotenv-rails', '~> 0.11.1'
 end
 
 group :test do
@@ -43,3 +44,4 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'faraday', '~> 0.9.0'
