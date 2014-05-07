@@ -3,6 +3,8 @@ Peng and Musulin's TrackerHub App
 
 This is an app that lets you interact with PivotalTracker and GitHub from one place.
 
+[![Build Status](https://travis-ci.org/bebepeng/peng-musulin-trackerhub.svg?branch=master)](https://travis-ci.org/bebepeng/peng-musulin-trackerhub)
+
 Setup Instructions
 ------------------
 1. clone this repository
