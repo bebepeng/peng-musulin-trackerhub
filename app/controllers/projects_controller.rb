@@ -4,4 +4,9 @@ class ProjectsController < ApplicationController
 
     @projects = tracker.get_projects
   end
+
+  def show
+    tracker = TrackerApi.new(ENV['TRACKER_TOKEN'])
+    @stories = tracker.get_stories(params[:id])
+  end
 end
