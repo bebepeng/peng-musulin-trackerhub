@@ -12,13 +12,13 @@ class TrackerApi
     api_call
   end
 
-  def stories(id)
-    api_call("/#{id}/stories")
+  def stories(project_id)
+    api_call("/#{project_id}/stories")
   end
 
-  def comments(id)
-    stories(id).each_with_object([]) do |story, comments|
-      comments.concat api_call("/#{id}/stories/#{story["id"]}/comments")
+  def comments(project_id)
+    stories(project_id).each_with_object([]) do |story, comments|
+      comments.concat api_call("/#{project_id}/stories/#{story["id"]}/comments")
     end
   end
 
