@@ -17,4 +17,11 @@ class TrackerApi
     response = Faraday.get("https://www.pivotaltracker.com/services/v5/projects/#{id}/stories", {}, 'X-TrackerToken' => token)
     JSON.parse(response.body)
   end
+
+  def get_comments(id)
+    get_stories(id).each_with_object([]) do |story, comments|
+      response = Faraday.get("https://www.pivotaltracker.com/services/v5/projects/#{id}/stories/#{story["id"]}/comments", {}, 'X-TrackerToken' => token)
+      comments.concat JSON.parse(response.body)
+    end
+  end
 end

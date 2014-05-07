@@ -7,5 +7,9 @@
 <hr>
 
 <h2>Tracker Comments</h2>
-
+<ul>
+  <% @comments.each do |comment| %>
+    <li><%= comment["text"] %></li>
+  <% end %>
+</ul>
 <hr>

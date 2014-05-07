@@ -19,4 +19,12 @@ describe TrackerApi do
     expect(stories).to include('As a user, I can view all of my projects')
     expect(stories).to include('As a user, I can view all of the stories for a project')
   end
+
+  it 'returns an array of all comments associated with a project' do
+    comments = @tracker.get_comments('1075508')
+    comments.map! { |comment| comment["text"] }
+
+    expect(comments).to include('This is a test comment on the first story')
+    expect(comments).to include('This is a second test comment on the first story')
+  end
 end
