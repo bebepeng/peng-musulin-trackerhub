@@ -15,11 +15,13 @@ gem 'coffee-rails', '~> 4.0.0'
 # gem 'therubyracer',  platforms: :ruby
 
 group :test, :development do
-  gem 'rspec-rails', '~> 2.14.2'
   gem 'dotenv-rails', '~> 0.11.1'
 end
 
 group :test do
+  gem 'rspec-rails', '~> 2.14.2'
+  gem 'vcr', '~> 2.9.0'
+  gem 'webmock', '~> 1.17.4'
   gem 'capybara', '~> 2.2.1'
 end
 
