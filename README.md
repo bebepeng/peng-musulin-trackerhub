@@ -15,5 +15,4 @@ Setup Instructions
 URLs
 ----
 * Tracker - [https://www.pivotaltracker.com/n/projects/1075508](https://www.pivotaltracker.com/n/projects/1075508)
-* Staging -
-* Production - 
+* Staging - [http://trackerhub-staging.herokuapp.com/](http://trackerhub-staging.herokuapp.com/)
