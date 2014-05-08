@@ -10,7 +10,7 @@ http_interactions:
       User-Agent:
       - Faraday v0.9.0
       X-Trackertoken:
-      - fc706ae6abd127ae2948c05443e4eec1
+      - "<TRACKER_TOKEN>"
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -27,7 +27,7 @@ http_interactions:
       Status:
       - 200 OK
       X-Tracker-Project-Version:
-      - '31'
+      - '33'
       X-Tracker-Pagination-Total:
       - '7'
       X-Tracker-Pagination-Offset:
@@ -41,11 +41,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - e4d5e8c70d4a927d1e56b7dc833c2ffe
+      - b62f7a10bb482500c977be14dd168dac
       X-Runtime:
-      - '0.075977'
+      - '0.138982'
       Date:
-      - Wed, 07 May 2014 22:18:17 GMT
+      - Thu, 08 May 2014 16:46:10 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -114,7 +114,7 @@ http_interactions:
             "kind": "story",
             "id": 70885552,
             "created_at": "2014-05-06T07:00:00Z",
-            "updated_at": "2014-05-07T22:02:38Z",
+            "updated_at": "2014-05-07T22:27:01Z",
             "accepted_at": "2014-05-07T22:02:38Z",
             "estimate": 2,
             "story_type": "feature",
@@ -125,11 +125,13 @@ http_interactions:
             "project_id": 1075508,
             "url": "https://www.pivotaltracker.com/story/show/70885552",
             "owner_ids": [
-
+              1256900,
+              1256936
             ],
             "labels": [
 
-            ]
+            ],
+            "owned_by_id": 1256900
           },
           {
             "kind": "story",
@@ -213,7 +215,7 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Wed, 07 May 2014 22:18:17 GMT
+  recorded_at: Thu, 08 May 2014 16:46:10 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075508/stories/70885548/comments
@@ -224,7 +226,7 @@ http_interactions:
       User-Agent:
       - Faraday v0.9.0
       X-Trackertoken:
-      - fc706ae6abd127ae2948c05443e4eec1
+      - "<TRACKER_TOKEN>"
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -241,17 +243,17 @@ http_interactions:
       Status:
       - 200 OK
       X-Tracker-Project-Version:
-      - '31'
+      - '33'
       X-Ua-Compatible:
       - IE=Edge,chrome=1
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 1d30acd282d81bdce5b04faddd1af367
+      - 08c3ce52dbebea46aba801727a2ffbce
       X-Runtime:
-      - '0.052705'
+      - '0.082412'
       Date:
-      - Wed, 07 May 2014 22:18:17 GMT
+      - Thu, 08 May 2014 16:44:57 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -301,7 +303,7 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Wed, 07 May 2014 22:18:17 GMT
+  recorded_at: Thu, 08 May 2014 16:46:11 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075508/stories/70885550/comments
@@ -312,7 +314,7 @@ http_interactions:
       User-Agent:
       - Faraday v0.9.0
       X-Trackertoken:
-      - fc706ae6abd127ae2948c05443e4eec1
+      - "<TRACKER_TOKEN>"
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -329,17 +331,17 @@ http_interactions:
       Status:
       - 200 OK
       X-Tracker-Project-Version:
-      - '31'
+      - '33'
       X-Ua-Compatible:
       - IE=Edge,chrome=1
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 0bedd75d8e5d3b69cf3d7b21eed760c7
+      - 91fd45c2bdc84e4555240aec791bf986
       X-Runtime:
-      - '0.044686'
+      - '0.058002'
       Date:
-      - Wed, 07 May 2014 22:18:17 GMT
+      - Thu, 08 May 2014 16:46:11 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -371,7 +373,7 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Wed, 07 May 2014 22:18:17 GMT
+  recorded_at: Thu, 08 May 2014 16:46:11 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075508/stories/70885552/comments
@@ -382,7 +384,7 @@ http_interactions:
       User-Agent:
       - Faraday v0.9.0
       X-Trackertoken:
-      - fc706ae6abd127ae2948c05443e4eec1
+      - "<TRACKER_TOKEN>"
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -399,17 +401,17 @@ http_interactions:
       Status:
       - 200 OK
       X-Tracker-Project-Version:
-      - '31'
+      - '33'
       X-Ua-Compatible:
       - IE=Edge,chrome=1
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - e250aa78df401a094c94d37dd219af8d
+      - 9fe6447d6d8730ae2600892f8f5d0256
       X-Runtime:
-      - '0.048313'
+      - '0.077064'
       Date:
-      - Wed, 07 May 2014 22:17:04 GMT
+      - Thu, 08 May 2014 16:46:11 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -450,7 +452,7 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Wed, 07 May 2014 22:18:18 GMT
+  recorded_at: Thu, 08 May 2014 16:46:11 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075508/stories/70885554/comments
@@ -461,7 +463,7 @@ http_interactions:
       User-Agent:
       - Faraday v0.9.0
       X-Trackertoken:
-      - fc706ae6abd127ae2948c05443e4eec1
+      - "<TRACKER_TOKEN>"
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -478,17 +480,17 @@ http_interactions:
       Status:
       - 200 OK
       X-Tracker-Project-Version:
-      - '31'
+      - '33'
       X-Ua-Compatible:
       - IE=Edge,chrome=1
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - f87e9271f488ee0eeed20165a28e7394
+      - 7beced380de3aabd9a16864732fe6465
       X-Runtime:
-      - '0.042136'
+      - '0.070553'
       Date:
-      - Wed, 07 May 2014 22:18:18 GMT
+      - Thu, 08 May 2014 16:44:58 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -510,7 +512,7 @@ http_interactions:
 
         ]
     http_version: 
-  recorded_at: Wed, 07 May 2014 22:18:18 GMT
+  recorded_at: Thu, 08 May 2014 16:46:12 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075508/stories/70885556/comments
@@ -521,7 +523,7 @@ http_interactions:
       User-Agent:
       - Faraday v0.9.0
       X-Trackertoken:
-      - fc706ae6abd127ae2948c05443e4eec1
+      - "<TRACKER_TOKEN>"
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -538,17 +540,17 @@ http_interactions:
       Status:
       - 200 OK
       X-Tracker-Project-Version:
-      - '31'
+      - '33'
       X-Ua-Compatible:
       - IE=Edge,chrome=1
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 4cf81ed8e107f7d52df39db4321099cf
+      - 24c4cbf1e5a60672a8e553a3d549ce67
       X-Runtime:
-      - '0.060922'
+      - '0.062252'
       Date:
-      - Wed, 07 May 2014 22:18:18 GMT
+      - Thu, 08 May 2014 16:46:12 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -570,7 +572,7 @@ http_interactions:
 
         ]
     http_version: 
-  recorded_at: Wed, 07 May 2014 22:18:18 GMT
+  recorded_at: Thu, 08 May 2014 16:46:12 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075508/stories/70885558/comments
@@ -581,7 +583,7 @@ http_interactions:
       User-Agent:
       - Faraday v0.9.0
       X-Trackertoken:
-      - fc706ae6abd127ae2948c05443e4eec1
+      - "<TRACKER_TOKEN>"
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -598,17 +600,17 @@ http_interactions:
       Status:
       - 200 OK
       X-Tracker-Project-Version:
-      - '31'
+      - '33'
       X-Ua-Compatible:
       - IE=Edge,chrome=1
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - cfb241ef34f6cb26d53cf50cd7beb57e
+      - 0ffc8bd62937862536d9dd2a5e49c21a
       X-Runtime:
-      - '0.045383'
+      - '0.066704'
       Date:
-      - Wed, 07 May 2014 22:17:05 GMT
+      - Thu, 08 May 2014 16:44:59 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -630,7 +632,7 @@ http_interactions:
 
         ]
     http_version: 
-  recorded_at: Wed, 07 May 2014 22:18:18 GMT
+  recorded_at: Thu, 08 May 2014 16:46:12 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075508/stories/70885560/comments
@@ -641,7 +643,7 @@ http_interactions:
       User-Agent:
       - Faraday v0.9.0
       X-Trackertoken:
-      - fc706ae6abd127ae2948c05443e4eec1
+      - "<TRACKER_TOKEN>"
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -658,17 +660,17 @@ http_interactions:
       Status:
       - 200 OK
       X-Tracker-Project-Version:
-      - '31'
+      - '33'
       X-Ua-Compatible:
       - IE=Edge,chrome=1
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 00b062d271551cfb53693ae5696d63a0
+      - 87524e06ef62cd0f4edd958e025e2a2d
       X-Runtime:
-      - '0.043038'
+      - '0.066986'
       Date:
-      - Wed, 07 May 2014 22:18:19 GMT
+      - Thu, 08 May 2014 16:46:13 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -690,5 +692,5 @@ http_interactions:
 
         ]
     http_version: 
-  recorded_at: Wed, 07 May 2014 22:18:19 GMT
+  recorded_at: Thu, 08 May 2014 16:46:13 GMT
 recorded_with: VCR 2.9.0
