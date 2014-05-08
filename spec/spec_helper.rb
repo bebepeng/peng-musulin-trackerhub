@@ -23,10 +23,13 @@ RSpec.configure do |config|
   # config.mock_with :rr
 
   VCR.configure do |c|
+    #c.allow_http_connections_when_no_cassette = true
     c.cassette_library_dir = 'fixtures/vcr_cassettes'
     c.hook_into :webmock
 
     c.filter_sensitive_data('<TRACKER_TOKEN>') {ENV['TRACKER_TOKEN']}
+    c.filter_sensitive_data('<GITHUB_USERNAME>') {ENV['GITHUB_USERNAME']}
+    c.filter_sensitive_data('<GITHUB_PASSWORD>') {ENV['GITHUB_PASSWORD']}
   end
 
   # Remove this line if you're not using ActiveRecord or ActiveRecord fixtures

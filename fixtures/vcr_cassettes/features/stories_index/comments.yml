@@ -31,11 +31,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 27c5210e7bdcd9382c5b7b562aeea98e
+      - 778ad80409636dd9bd6adf2db2844cd6
       X-Runtime:
-      - '0.218894'
+      - '0.230508'
       Date:
-      - Thu, 08 May 2014 16:45:04 GMT
+      - Thu, 08 May 2014 21:20:41 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -58,7 +58,7 @@ http_interactions:
             "id": 1075508,
             "kind": "project",
             "name": "Peng and Musulin's TrackerHub",
-            "version": 33,
+            "version": 34,
             "iteration_length": 1,
             "week_start_day": "Monday",
             "point_scale": "0,1,2,3",
@@ -245,7 +245,7 @@ http_interactions:
             "id": 966426,
             "kind": "project",
             "name": "gSchoolMarch2014Curriculum",
-            "version": 2370,
+            "version": 2379,
             "iteration_length": 1,
             "week_start_day": "Monday",
             "point_scale": "0,1,2,3",
@@ -368,7 +368,7 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 16:46:17 GMT
+  recorded_at: Thu, 08 May 2014 21:20:41 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075508/stories
@@ -396,7 +396,7 @@ http_interactions:
       Status:
       - 200 OK
       X-Tracker-Project-Version:
-      - '33'
+      - '34'
       X-Tracker-Pagination-Total:
       - '7'
       X-Tracker-Pagination-Offset:
@@ -410,11 +410,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 3637eaadbd8960972492395688d04bf8
+      - 9824f15024216b7314e1024c91aaff04
       X-Runtime:
-      - '0.033309'
+      - '0.030355'
       Date:
-      - Thu, 08 May 2014 16:46:18 GMT
+      - Thu, 08 May 2014 21:20:41 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -506,21 +506,22 @@ http_interactions:
             "kind": "story",
             "id": 70885554,
             "created_at": "2014-05-06T07:00:00Z",
-            "updated_at": "2014-05-07T19:10:52Z",
+            "updated_at": "2014-05-08T21:16:22Z",
             "estimate": 2,
             "story_type": "feature",
             "name": "As a user, I can see the GitHub comments on a Tracker comment with a commit associated",
             "description": "When I'm viewing a project\nAnd there is a comment that came from the GitHub integration\nThen I see the GitHub comments below the Tracker comment\n\n---\nYou must use basic authentication (https://developer.github.com/v3/#basic-authentication) for this otherwise we'll go over our rate limit (https://developer.github.com/v3/#rate-limiting) for GitHub.  ",
-            "current_state": "unstarted",
+            "current_state": "started",
             "requested_by_id": 1256900,
             "project_id": 1075508,
             "url": "https://www.pivotaltracker.com/story/show/70885554",
             "owner_ids": [
-
+              1256900
             ],
             "labels": [
 
-            ]
+            ],
+            "owned_by_id": 1256900
           },
           {
             "kind": "story",
@@ -584,7 +585,7 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 16:46:18 GMT
+  recorded_at: Thu, 08 May 2014 21:20:41 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075508/stories
@@ -612,7 +613,7 @@ http_interactions:
       Status:
       - 200 OK
       X-Tracker-Project-Version:
-      - '33'
+      - '34'
       X-Tracker-Pagination-Total:
       - '7'
       X-Tracker-Pagination-Offset:
@@ -626,11 +627,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - b499dc9c9109fa36a169033222b7fbc6
+      - 196323de0619159b77dbd2f51742fca9
       X-Runtime:
-      - '0.034428'
+      - '0.035104'
       Date:
-      - Thu, 08 May 2014 16:46:18 GMT
+      - Thu, 08 May 2014 21:20:42 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -722,21 +723,22 @@ http_interactions:
             "kind": "story",
             "id": 70885554,
             "created_at": "2014-05-06T07:00:00Z",
-            "updated_at": "2014-05-07T19:10:52Z",
+            "updated_at": "2014-05-08T21:16:22Z",
             "estimate": 2,
             "story_type": "feature",
             "name": "As a user, I can see the GitHub comments on a Tracker comment with a commit associated",
             "description": "When I'm viewing a project\nAnd there is a comment that came from the GitHub integration\nThen I see the GitHub comments below the Tracker comment\n\n---\nYou must use basic authentication (https://developer.github.com/v3/#basic-authentication) for this otherwise we'll go over our rate limit (https://developer.github.com/v3/#rate-limiting) for GitHub.  ",
-            "current_state": "unstarted",
+            "current_state": "started",
             "requested_by_id": 1256900,
             "project_id": 1075508,
             "url": "https://www.pivotaltracker.com/story/show/70885554",
             "owner_ids": [
-
+              1256900
             ],
             "labels": [
 
-            ]
+            ],
+            "owned_by_id": 1256900
           },
           {
             "kind": "story",
@@ -800,7 +802,7 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 16:46:18 GMT
+  recorded_at: Thu, 08 May 2014 21:20:42 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075508/stories/70885548/comments
@@ -828,17 +830,17 @@ http_interactions:
       Status:
       - 200 OK
       X-Tracker-Project-Version:
-      - '33'
+      - '34'
       X-Ua-Compatible:
       - IE=Edge,chrome=1
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 334a66289548bea3c501da00ea57f3ac
+      - 90ea86a054d158f0858e920c080a7792
       X-Runtime:
-      - '0.049090'
+      - '0.034761'
       Date:
-      - Thu, 08 May 2014 16:45:05 GMT
+      - Thu, 08 May 2014 21:19:29 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -888,7 +890,7 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 16:46:18 GMT
+  recorded_at: Thu, 08 May 2014 21:20:42 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075508/stories/70885550/comments
@@ -916,17 +918,17 @@ http_interactions:
       Status:
       - 200 OK
       X-Tracker-Project-Version:
-      - '33'
+      - '34'
       X-Ua-Compatible:
       - IE=Edge,chrome=1
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 4fe9244d407a909d0b84c436bf46484a
+      - 21ac948d963e3432f270578472b2d327
       X-Runtime:
-      - '0.062121'
+      - '0.040272'
       Date:
-      - Thu, 08 May 2014 16:46:18 GMT
+      - Thu, 08 May 2014 21:20:42 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -949,7 +951,7 @@ http_interactions:
             "kind": "comment",
             "id": 68678994,
             "story_id": 70885550,
-            "text": "Commit by Bebe Peng\nhttps://github.com/bebepeng/peng-musulin-trackerhub/commit/5edd72fb0ab8f6f13acdd996e478c052470e6348\n\n[#70885550] Users can view all stories for a project\n\nSigned-off-by: Seth Musulin <sethmusulin@gmail.com>",
+            "text": "Commit by Bebe Peng\nhttps://github.com/bebepeng/peng-musulin-trackerhub/commit/5edd72fb0ab8f6f13acdd996e478c052470e6348\n\n[#70885550] Users can view all stories for a project\n\nSigned-off-by: Seth Musulin <<GITHUB_USERNAME>@gmail.com>",
             "person_id": 1256900,
             "created_at": "2014-05-07T21:23:50Z",
             "updated_at": "2014-05-07T21:23:50Z",
@@ -958,7 +960,7 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 16:46:18 GMT
+  recorded_at: Thu, 08 May 2014 21:20:42 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075508/stories/70885552/comments
@@ -986,17 +988,17 @@ http_interactions:
       Status:
       - 200 OK
       X-Tracker-Project-Version:
-      - '33'
+      - '34'
       X-Ua-Compatible:
       - IE=Edge,chrome=1
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - ce3a77412e5f335b16336b72ff94fe2a
+      - c7b894a8b0ab690f471ac520d71ba4fe
       X-Runtime:
-      - '0.047281'
+      - '0.032652'
       Date:
-      - Thu, 08 May 2014 16:46:19 GMT
+      - Thu, 08 May 2014 21:20:42 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -1028,7 +1030,7 @@ http_interactions:
             "kind": "comment",
             "id": 68682920,
             "story_id": 70885552,
-            "text": "Commit by Bebe Peng\nhttps://github.com/bebepeng/peng-musulin-trackerhub/commit/bcd429a9baf1209e2de2d5a623e9775c61cc33e5\n\n[#70885552] User can see all commemts attached to a project\n\nSigned-off-by: Seth Musulin <sethmusulin@gmail.com>",
+            "text": "Commit by Bebe Peng\nhttps://github.com/bebepeng/peng-musulin-trackerhub/commit/bcd429a9baf1209e2de2d5a623e9775c61cc33e5\n\n[#70885552] User can see all commemts attached to a project\n\nSigned-off-by: Seth Musulin <<GITHUB_USERNAME>@gmail.com>",
             "person_id": 1256900,
             "created_at": "2014-05-07T21:59:46Z",
             "updated_at": "2014-05-07T21:59:46Z",
@@ -1037,7 +1039,7 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 16:46:19 GMT
+  recorded_at: Thu, 08 May 2014 21:20:42 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075508/stories/70885554/comments
@@ -1065,17 +1067,17 @@ http_interactions:
       Status:
       - 200 OK
       X-Tracker-Project-Version:
-      - '33'
+      - '34'
       X-Ua-Compatible:
       - IE=Edge,chrome=1
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - b7c5ea7e15c17793d8875c1e29af9758
+      - f28a777784f3aa346c54167ccbb66047
       X-Runtime:
-      - '0.052868'
+      - '0.031126'
       Date:
-      - Thu, 08 May 2014 16:46:19 GMT
+      - Thu, 08 May 2014 21:20:43 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -1097,7 +1099,7 @@ http_interactions:
 
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 16:46:19 GMT
+  recorded_at: Thu, 08 May 2014 21:20:43 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075508/stories/70885556/comments
@@ -1125,17 +1127,17 @@ http_interactions:
       Status:
       - 200 OK
       X-Tracker-Project-Version:
-      - '33'
+      - '34'
       X-Ua-Compatible:
       - IE=Edge,chrome=1
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 50ff8c42f85513835e1c5698de5dcc3c
+      - 784c77d44679134fa0387b2fb2a2b6c6
       X-Runtime:
-      - '0.052339'
+      - '0.029542'
       Date:
-      - Thu, 08 May 2014 16:46:19 GMT
+      - Thu, 08 May 2014 21:20:43 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -1157,7 +1159,7 @@ http_interactions:
 
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 16:46:19 GMT
+  recorded_at: Thu, 08 May 2014 21:20:43 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075508/stories/70885558/comments
@@ -1185,17 +1187,17 @@ http_interactions:
       Status:
       - 200 OK
       X-Tracker-Project-Version:
-      - '33'
+      - '34'
       X-Ua-Compatible:
       - IE=Edge,chrome=1
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 77274b8df4892bb7674df2097fd1a052
+      - 80f6abdb5f1620bc3fc3864b543775b3
       X-Runtime:
-      - '0.054234'
+      - '0.036400'
       Date:
-      - Thu, 08 May 2014 16:46:19 GMT
+      - Thu, 08 May 2014 21:19:30 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -1217,7 +1219,7 @@ http_interactions:
 
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 16:46:19 GMT
+  recorded_at: Thu, 08 May 2014 21:20:43 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075508/stories/70885560/comments
@@ -1245,17 +1247,17 @@ http_interactions:
       Status:
       - 200 OK
       X-Tracker-Project-Version:
-      - '33'
+      - '34'
       X-Ua-Compatible:
       - IE=Edge,chrome=1
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 08d3c0a625f3f4abaa15f58e99c334e0
+      - 723df97b92f845b6bff6e74f0e5125dc
       X-Runtime:
-      - '0.045584'
+      - '0.038194'
       Date:
-      - Thu, 08 May 2014 16:46:20 GMT
+      - Thu, 08 May 2014 21:20:43 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -1277,5 +1279,223 @@ http_interactions:
 
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 16:46:20 GMT
+  recorded_at: Thu, 08 May 2014 21:20:43 GMT
+- request:
+    method: get
+    uri: https://<GITHUB_USERNAME>:<GITHUB_PASSWORD>@api.github.com/repos/bebepeng/peng-musulin-trackerhub/commits/e300e323a4dfa3a42435705f70299456c9cb7865/comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Thu, 08 May 2014 21:20:44 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4991'
+      X-Ratelimit-Reset:
+      - '1399587458'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Etag:
+      - '"27e9520649d53b72d42f195b5dc8c31c"'
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - AD0E15D1:6B87:78B629B:536BF52C
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - 88d924ed861736d2749ce1a55766cb53
+    body:
+      encoding: UTF-8
+      string: '[{"url":"https://api.github.com/repos/bebepeng/peng-musulin-trackerhub/comments/6247883","html_url":"https://github.com/bebepeng/peng-musulin-trackerhub/commit/e300e323a4dfa3a42435705f70299456c9cb7865#commitcomment-6247883","id":6247883,"user":{"login":"msgehard","id":128210,"avatar_url":"https://avatars.githubusercontent.com/u/128210?","gravatar_id":"b09d62315dbafc471538dd71d404ad48","url":"https://api.github.com/users/msgehard","html_url":"https://github.com/msgehard","followers_url":"https://api.github.com/users/msgehard/followers","following_url":"https://api.github.com/users/msgehard/following{/other_user}","gists_url":"https://api.github.com/users/msgehard/gists{/gist_id}","starred_url":"https://api.github.com/users/msgehard/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/msgehard/subscriptions","organizations_url":"https://api.github.com/users/msgehard/orgs","repos_url":"https://api.github.com/users/msgehard/repos","events_url":"https://api.github.com/users/msgehard/events{/privacy}","received_events_url":"https://api.github.com/users/msgehard/received_events","type":"User","site_admin":false},"position":7,"line":7,"path":"spec/models/tracker_api_spec.rb","commit_id":"e300e323a4dfa3a42435705f70299456c9cb7865","created_at":"2014-05-07T22:06:47Z","updated_at":"2014-05-07T22:06:47Z","body":"Mutating
+        projects with the .map! method changes the contents of project. It started
+        out as an array full of hashes and now it contains an array full of strings.
+        It is better form to use .map and store the results in a well named new variable."},{"url":"https://api.github.com/repos/bebepeng/peng-musulin-trackerhub/comments/6247904","html_url":"https://github.com/bebepeng/peng-musulin-trackerhub/commit/e300e323a4dfa3a42435705f70299456c9cb7865#commitcomment-6247904","id":6247904,"user":{"login":"msgehard","id":128210,"avatar_url":"https://avatars.githubusercontent.com/u/128210?","gravatar_id":"b09d62315dbafc471538dd71d404ad48","url":"https://api.github.com/users/msgehard","html_url":"https://github.com/msgehard","followers_url":"https://api.github.com/users/msgehard/followers","following_url":"https://api.github.com/users/msgehard/following{/other_user}","gists_url":"https://api.github.com/users/msgehard/gists{/gist_id}","starred_url":"https://api.github.com/users/msgehard/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/msgehard/subscriptions","organizations_url":"https://api.github.com/users/msgehard/orgs","repos_url":"https://api.github.com/users/msgehard/repos","events_url":"https://api.github.com/users/msgehard/events{/privacy}","received_events_url":"https://api.github.com/users/msgehard/received_events","type":"User","site_admin":false},"position":null,"line":null,"path":null,"commit_id":"e300e323a4dfa3a42435705f70299456c9cb7865","created_at":"2014-05-07T22:08:34Z","updated_at":"2014-05-07T22:08:34Z","body":"Where
+        do you pull in VCR? Your test suite is not tied to having internet connection
+        and may fail in the future if you get rate limited by tracker. \r\n\r\nPlease
+        take some time to integrate VCR and make sure you can run your tests even
+        when you wireless connection is turned off."}]'
+    http_version: 
+  recorded_at: Thu, 08 May 2014 21:20:44 GMT
+- request:
+    method: get
+    uri: https://<GITHUB_USERNAME>:<GITHUB_PASSWORD>@api.github.com/repos/bebepeng/peng-musulin-trackerhub/commits/5edd72fb0ab8f6f13acdd996e478c052470e6348/comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Thu, 08 May 2014 21:20:44 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4990'
+      X-Ratelimit-Reset:
+      - '1399587458'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Etag:
+      - '"e9d0ca334b463720341cc3528652548c"'
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - AD0E15D1:6B87:78B62EF:536BF52C
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - d818ddef80f4c7d10683dd483558952a
+    body:
+      encoding: UTF-8
+      string: '[{"url":"https://api.github.com/repos/bebepeng/peng-musulin-trackerhub/comments/6247916","html_url":"https://github.com/bebepeng/peng-musulin-trackerhub/commit/5edd72fb0ab8f6f13acdd996e478c052470e6348#commitcomment-6247916","id":6247916,"user":{"login":"msgehard","id":128210,"avatar_url":"https://avatars.githubusercontent.com/u/128210?","gravatar_id":"b09d62315dbafc471538dd71d404ad48","url":"https://api.github.com/users/msgehard","html_url":"https://github.com/msgehard","followers_url":"https://api.github.com/users/msgehard/followers","following_url":"https://api.github.com/users/msgehard/following{/other_user}","gists_url":"https://api.github.com/users/msgehard/gists{/gist_id}","starred_url":"https://api.github.com/users/msgehard/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/msgehard/subscriptions","organizations_url":"https://api.github.com/users/msgehard/orgs","repos_url":"https://api.github.com/users/msgehard/repos","events_url":"https://api.github.com/users/msgehard/events{/privacy}","received_events_url":"https://api.github.com/users/msgehard/received_events","type":"User","site_admin":false},"position":5,"line":16,"path":"app/models/tracker_api.rb","commit_id":"5edd72fb0ab8f6f13acdd996e478c052470e6348","created_at":"2014-05-07T22:09:18Z","updated_at":"2014-05-07T22:09:18Z","body":"Could
+        you make this name a bit more descriptive so I know what type of id it is?"}]'
+    http_version: 
+  recorded_at: Thu, 08 May 2014 21:20:44 GMT
+- request:
+    method: get
+    uri: https://<GITHUB_USERNAME>:<GITHUB_PASSWORD>@api.github.com/repos/bebepeng/peng-musulin-trackerhub/commits/bcd429a9baf1209e2de2d5a623e9775c61cc33e5/comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Thu, 08 May 2014 21:20:45 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4989'
+      X-Ratelimit-Reset:
+      - '1399587458'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Etag:
+      - '"85eb2aa14370861c9445fbf09bafadec"'
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3
+      Link:
+      - <https://api.github.com/repositories/19547116/commits/bcd429a9baf1209e2de2d5a623e9775c61cc33e5/comments?page=0>;
+        rel="last"
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Length:
+      - '2'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - AD0E15D1:6B86:4C20BF0:536BF52C
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - 3061975e1f37121b3751604ad153c687
+    body:
+      encoding: UTF-8
+      string: "[]"
+    http_version: 
+  recorded_at: Thu, 08 May 2014 21:20:44 GMT
 recorded_with: VCR 2.9.0

@@ -1,0 +1,15 @@
+require 'spec_helper'
+
+describe GithubApi do
+  it "returns the github comments associated with the tracker project" do
+    tracker_comments = [{"kind" => "comment", "id" => 68662258, "story_id" => 70885548, "text" => "This is a test comment on the first story", "person_id" => 534749, "created_at" => "2014-05-06T00:00:00Z", "updated_at" => "2014-05-07T19:10:52Z"}, {"kind" => "comment", "id" => 68662260, "story_id" => 70885548, "text" => "This is a second test comment on the first story", "person_id" => 534749, "created_at" => "2014-05-06T00:00:00Z", "updated_at" => "2014-05-07T19:10:52Z"}, {"kind" => "comment", "id" => 68675366, "story_id" => 70885548, "text" => "Commit by Seth Musulin\nhttps://github.com/bebepeng/peng-musulin-trackerhub/commit/e300e323a4dfa3a42435705f70299456c9cb7865\n\n[#70885548] User can view all of BebePengs tracker projects\n\nSigned-off-by: Bebe Peng <bebepeng@gmail.com>", "person_id" => 1256936, "created_at" => "2014-05-07T20:49:50Z", "updated_at" => "2014-05-07T20:49:50Z", "commit_identifier" => "e300e323a4dfa3a42435705f70299456c9cb7865", "commit_type" => "github"}, {"kind" => "comment", "id" => 68678994, "story_id" => 70885550, "text" => "Commit by Bebe Peng\nhttps://github.com/bebepeng/peng-musulin-trackerhub/commit/5edd72fb0ab8f6f13acdd996e478c052470e6348\n\n[#70885550] Users can view all stories for a project\n\nSigned-off-by: Seth Musulin <sethmusulin@gmail.com>", "person_id" => 1256900, "created_at" => "2014-05-07T21:23:50Z", "updated_at" => "2014-05-07T21:23:50Z", "commit_identifier" => "5edd72fb0ab8f6f13acdd996e478c052470e6348", "commit_type" => "github"}, {"kind" => "comment", "id" => 68662264, "story_id" => 70885552, "text" => "This is a comment on the comment story", "person_id" => 534749, "created_at" => "2014-05-06T00:00:00Z", "updated_at" => "2014-05-07T19:10:52Z"}, {"kind" => "comment", "id" => 68682920, "story_id" => 70885552, "text" => "Commit by Bebe Peng\nhttps://github.com/bebepeng/peng-musulin-trackerhub/commit/bcd429a9baf1209e2de2d5a623e9775c61cc33e5\n\n[#70885552] User can see all commemts attached to a project\n\nSigned-off-by: Seth Musulin <sethmusulin@gmail.com>", "person_id" => 1256900, "created_at" => "2014-05-07T21:59:46Z", "updated_at" => "2014-05-07T21:59:46Z", "commit_identifier" => "bcd429a9baf1209e2de2d5a623e9775c61cc33e5", "commit_type" => "github"}]
+
+    github = GithubApi.new(tracker_comments)
+    VCR.use_cassette('githubapi/comments') do
+      github_comments = github.comments.map { |elements| elements["body"] }
+
+      expect(github_comments).to include 'Mutating projects with the .map! method changes the contents of project. It started out as an array full of hashes and now it contains an array full of strings. It is better form to use .map and store the results in a well named new variable.'
+      expect(github_comments).to include 'Could you make this name a bit more descriptive so I know what type of id it is?'
+    end
+  end
+end

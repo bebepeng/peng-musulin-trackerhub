@@ -27,7 +27,7 @@ http_interactions:
       Status:
       - 200 OK
       X-Tracker-Project-Version:
-      - '33'
+      - '34'
       X-Tracker-Pagination-Total:
       - '7'
       X-Tracker-Pagination-Offset:
@@ -41,11 +41,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - b62f7a10bb482500c977be14dd168dac
+      - a22812af40974182e824a8e86bcdb89d
       X-Runtime:
-      - '0.138982'
+      - '0.085446'
       Date:
-      - Thu, 08 May 2014 16:46:10 GMT
+      - Thu, 08 May 2014 21:20:34 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -137,21 +137,22 @@ http_interactions:
             "kind": "story",
             "id": 70885554,
             "created_at": "2014-05-06T07:00:00Z",
-            "updated_at": "2014-05-07T19:10:52Z",
+            "updated_at": "2014-05-08T21:16:22Z",
             "estimate": 2,
             "story_type": "feature",
             "name": "As a user, I can see the GitHub comments on a Tracker comment with a commit associated",
             "description": "When I'm viewing a project\nAnd there is a comment that came from the GitHub integration\nThen I see the GitHub comments below the Tracker comment\n\n---\nYou must use basic authentication (https://developer.github.com/v3/#basic-authentication) for this otherwise we'll go over our rate limit (https://developer.github.com/v3/#rate-limiting) for GitHub.  ",
-            "current_state": "unstarted",
+            "current_state": "started",
             "requested_by_id": 1256900,
             "project_id": 1075508,
             "url": "https://www.pivotaltracker.com/story/show/70885554",
             "owner_ids": [
-
+              1256900
             ],
             "labels": [
 
-            ]
+            ],
+            "owned_by_id": 1256900
           },
           {
             "kind": "story",
@@ -215,7 +216,7 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 16:46:10 GMT
+  recorded_at: Thu, 08 May 2014 21:20:34 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075508/stories/70885548/comments
@@ -243,17 +244,17 @@ http_interactions:
       Status:
       - 200 OK
       X-Tracker-Project-Version:
-      - '33'
+      - '34'
       X-Ua-Compatible:
       - IE=Edge,chrome=1
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 08c3ce52dbebea46aba801727a2ffbce
+      - 6556d988edf7819e749b676b6281fe02
       X-Runtime:
-      - '0.082412'
+      - '0.053869'
       Date:
-      - Thu, 08 May 2014 16:44:57 GMT
+      - Thu, 08 May 2014 21:20:34 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -303,7 +304,7 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 16:46:11 GMT
+  recorded_at: Thu, 08 May 2014 21:20:34 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075508/stories/70885550/comments
@@ -331,17 +332,17 @@ http_interactions:
       Status:
       - 200 OK
       X-Tracker-Project-Version:
-      - '33'
+      - '34'
       X-Ua-Compatible:
       - IE=Edge,chrome=1
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 91fd45c2bdc84e4555240aec791bf986
+      - b2905b12e539c38e24f18b6ae104ec25
       X-Runtime:
-      - '0.058002'
+      - '0.317355'
       Date:
-      - Thu, 08 May 2014 16:46:11 GMT
+      - Thu, 08 May 2014 21:20:35 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -364,7 +365,7 @@ http_interactions:
             "kind": "comment",
             "id": 68678994,
             "story_id": 70885550,
-            "text": "Commit by Bebe Peng\nhttps://github.com/bebepeng/peng-musulin-trackerhub/commit/5edd72fb0ab8f6f13acdd996e478c052470e6348\n\n[#70885550] Users can view all stories for a project\n\nSigned-off-by: Seth Musulin <sethmusulin@gmail.com>",
+            "text": "Commit by Bebe Peng\nhttps://github.com/bebepeng/peng-musulin-trackerhub/commit/5edd72fb0ab8f6f13acdd996e478c052470e6348\n\n[#70885550] Users can view all stories for a project\n\nSigned-off-by: Seth Musulin <<GITHUB_USERNAME>@gmail.com>",
             "person_id": 1256900,
             "created_at": "2014-05-07T21:23:50Z",
             "updated_at": "2014-05-07T21:23:50Z",
@@ -373,7 +374,7 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 16:46:11 GMT
+  recorded_at: Thu, 08 May 2014 21:20:34 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075508/stories/70885552/comments
@@ -401,17 +402,17 @@ http_interactions:
       Status:
       - 200 OK
       X-Tracker-Project-Version:
-      - '33'
+      - '34'
       X-Ua-Compatible:
       - IE=Edge,chrome=1
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 9fe6447d6d8730ae2600892f8f5d0256
+      - 4561636cb074a15d5c24e96efd7ab731
       X-Runtime:
-      - '0.077064'
+      - '0.051800'
       Date:
-      - Thu, 08 May 2014 16:46:11 GMT
+      - Thu, 08 May 2014 21:19:22 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -443,7 +444,7 @@ http_interactions:
             "kind": "comment",
             "id": 68682920,
             "story_id": 70885552,
-            "text": "Commit by Bebe Peng\nhttps://github.com/bebepeng/peng-musulin-trackerhub/commit/bcd429a9baf1209e2de2d5a623e9775c61cc33e5\n\n[#70885552] User can see all commemts attached to a project\n\nSigned-off-by: Seth Musulin <sethmusulin@gmail.com>",
+            "text": "Commit by Bebe Peng\nhttps://github.com/bebepeng/peng-musulin-trackerhub/commit/bcd429a9baf1209e2de2d5a623e9775c61cc33e5\n\n[#70885552] User can see all commemts attached to a project\n\nSigned-off-by: Seth Musulin <<GITHUB_USERNAME>@gmail.com>",
             "person_id": 1256900,
             "created_at": "2014-05-07T21:59:46Z",
             "updated_at": "2014-05-07T21:59:46Z",
@@ -452,7 +453,7 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 16:46:11 GMT
+  recorded_at: Thu, 08 May 2014 21:20:35 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075508/stories/70885554/comments
@@ -480,17 +481,17 @@ http_interactions:
       Status:
       - 200 OK
       X-Tracker-Project-Version:
-      - '33'
+      - '34'
       X-Ua-Compatible:
       - IE=Edge,chrome=1
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 7beced380de3aabd9a16864732fe6465
+      - 74498165fb4a43aa66bb6b4cec053276
       X-Runtime:
-      - '0.070553'
+      - '0.043592'
       Date:
-      - Thu, 08 May 2014 16:44:58 GMT
+      - Thu, 08 May 2014 21:19:22 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -512,7 +513,7 @@ http_interactions:
 
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 16:46:12 GMT
+  recorded_at: Thu, 08 May 2014 21:20:35 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075508/stories/70885556/comments
@@ -540,17 +541,17 @@ http_interactions:
       Status:
       - 200 OK
       X-Tracker-Project-Version:
-      - '33'
+      - '34'
       X-Ua-Compatible:
       - IE=Edge,chrome=1
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 24c4cbf1e5a60672a8e553a3d549ce67
+      - 4e14f53d3b733833810f473e008ac675
       X-Runtime:
-      - '0.062252'
+      - '0.047578'
       Date:
-      - Thu, 08 May 2014 16:46:12 GMT
+      - Thu, 08 May 2014 21:20:35 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -572,7 +573,7 @@ http_interactions:
 
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 16:46:12 GMT
+  recorded_at: Thu, 08 May 2014 21:20:35 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075508/stories/70885558/comments
@@ -600,17 +601,17 @@ http_interactions:
       Status:
       - 200 OK
       X-Tracker-Project-Version:
-      - '33'
+      - '34'
       X-Ua-Compatible:
       - IE=Edge,chrome=1
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 0ffc8bd62937862536d9dd2a5e49c21a
+      - 4a7261c240674e2a03a55db438a6f3f9
       X-Runtime:
-      - '0.066704'
+      - '0.045850'
       Date:
-      - Thu, 08 May 2014 16:44:59 GMT
+      - Thu, 08 May 2014 21:20:36 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -632,7 +633,7 @@ http_interactions:
 
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 16:46:12 GMT
+  recorded_at: Thu, 08 May 2014 21:20:36 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075508/stories/70885560/comments
@@ -660,17 +661,17 @@ http_interactions:
       Status:
       - 200 OK
       X-Tracker-Project-Version:
-      - '33'
+      - '34'
       X-Ua-Compatible:
       - IE=Edge,chrome=1
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 87524e06ef62cd0f4edd958e025e2a2d
+      - c10f74038d884224e66bb96880558415
       X-Runtime:
-      - '0.066986'
+      - '0.040369'
       Date:
-      - Thu, 08 May 2014 16:46:13 GMT
+      - Thu, 08 May 2014 21:20:36 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -692,5 +693,5 @@ http_interactions:
 
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 16:46:13 GMT
+  recorded_at: Thu, 08 May 2014 21:20:36 GMT
 recorded_with: VCR 2.9.0

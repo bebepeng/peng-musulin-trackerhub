@@ -1,0 +1,221 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://<GITHUB_USERNAME>:<GITHUB_PASSWORD>@api.github.com/repos/bebepeng/peng-musulin-trackerhub/commits/e300e323a4dfa3a42435705f70299456c9cb7865/comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Thu, 08 May 2014 21:20:49 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4985'
+      X-Ratelimit-Reset:
+      - '1399587458'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Etag:
+      - '"27e9520649d53b72d42f195b5dc8c31c"'
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - AD0E15D1:6B87:78B67B4:536BF531
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - 132026e9262a0093e437f99db5f1e499
+    body:
+      encoding: UTF-8
+      string: '[{"url":"https://api.github.com/repos/bebepeng/peng-musulin-trackerhub/comments/6247883","html_url":"https://github.com/bebepeng/peng-musulin-trackerhub/commit/e300e323a4dfa3a42435705f70299456c9cb7865#commitcomment-6247883","id":6247883,"user":{"login":"msgehard","id":128210,"avatar_url":"https://avatars.githubusercontent.com/u/128210?","gravatar_id":"b09d62315dbafc471538dd71d404ad48","url":"https://api.github.com/users/msgehard","html_url":"https://github.com/msgehard","followers_url":"https://api.github.com/users/msgehard/followers","following_url":"https://api.github.com/users/msgehard/following{/other_user}","gists_url":"https://api.github.com/users/msgehard/gists{/gist_id}","starred_url":"https://api.github.com/users/msgehard/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/msgehard/subscriptions","organizations_url":"https://api.github.com/users/msgehard/orgs","repos_url":"https://api.github.com/users/msgehard/repos","events_url":"https://api.github.com/users/msgehard/events{/privacy}","received_events_url":"https://api.github.com/users/msgehard/received_events","type":"User","site_admin":false},"position":7,"line":7,"path":"spec/models/tracker_api_spec.rb","commit_id":"e300e323a4dfa3a42435705f70299456c9cb7865","created_at":"2014-05-07T22:06:47Z","updated_at":"2014-05-07T22:06:47Z","body":"Mutating
+        projects with the .map! method changes the contents of project. It started
+        out as an array full of hashes and now it contains an array full of strings.
+        It is better form to use .map and store the results in a well named new variable."},{"url":"https://api.github.com/repos/bebepeng/peng-musulin-trackerhub/comments/6247904","html_url":"https://github.com/bebepeng/peng-musulin-trackerhub/commit/e300e323a4dfa3a42435705f70299456c9cb7865#commitcomment-6247904","id":6247904,"user":{"login":"msgehard","id":128210,"avatar_url":"https://avatars.githubusercontent.com/u/128210?","gravatar_id":"b09d62315dbafc471538dd71d404ad48","url":"https://api.github.com/users/msgehard","html_url":"https://github.com/msgehard","followers_url":"https://api.github.com/users/msgehard/followers","following_url":"https://api.github.com/users/msgehard/following{/other_user}","gists_url":"https://api.github.com/users/msgehard/gists{/gist_id}","starred_url":"https://api.github.com/users/msgehard/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/msgehard/subscriptions","organizations_url":"https://api.github.com/users/msgehard/orgs","repos_url":"https://api.github.com/users/msgehard/repos","events_url":"https://api.github.com/users/msgehard/events{/privacy}","received_events_url":"https://api.github.com/users/msgehard/received_events","type":"User","site_admin":false},"position":null,"line":null,"path":null,"commit_id":"e300e323a4dfa3a42435705f70299456c9cb7865","created_at":"2014-05-07T22:08:34Z","updated_at":"2014-05-07T22:08:34Z","body":"Where
+        do you pull in VCR? Your test suite is not tied to having internet connection
+        and may fail in the future if you get rate limited by tracker. \r\n\r\nPlease
+        take some time to integrate VCR and make sure you can run your tests even
+        when you wireless connection is turned off."}]'
+    http_version: 
+  recorded_at: Thu, 08 May 2014 21:20:49 GMT
+- request:
+    method: get
+    uri: https://<GITHUB_USERNAME>:<GITHUB_PASSWORD>@api.github.com/repos/bebepeng/peng-musulin-trackerhub/commits/5edd72fb0ab8f6f13acdd996e478c052470e6348/comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Thu, 08 May 2014 21:20:50 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4984'
+      X-Ratelimit-Reset:
+      - '1399587458'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Etag:
+      - '"e9d0ca334b463720341cc3528652548c"'
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - AD0E15D1:6B89:CE6C6D9:536BF531
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - 88d924ed861736d2749ce1a55766cb53
+    body:
+      encoding: UTF-8
+      string: '[{"url":"https://api.github.com/repos/bebepeng/peng-musulin-trackerhub/comments/6247916","html_url":"https://github.com/bebepeng/peng-musulin-trackerhub/commit/5edd72fb0ab8f6f13acdd996e478c052470e6348#commitcomment-6247916","id":6247916,"user":{"login":"msgehard","id":128210,"avatar_url":"https://avatars.githubusercontent.com/u/128210?","gravatar_id":"b09d62315dbafc471538dd71d404ad48","url":"https://api.github.com/users/msgehard","html_url":"https://github.com/msgehard","followers_url":"https://api.github.com/users/msgehard/followers","following_url":"https://api.github.com/users/msgehard/following{/other_user}","gists_url":"https://api.github.com/users/msgehard/gists{/gist_id}","starred_url":"https://api.github.com/users/msgehard/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/msgehard/subscriptions","organizations_url":"https://api.github.com/users/msgehard/orgs","repos_url":"https://api.github.com/users/msgehard/repos","events_url":"https://api.github.com/users/msgehard/events{/privacy}","received_events_url":"https://api.github.com/users/msgehard/received_events","type":"User","site_admin":false},"position":5,"line":16,"path":"app/models/tracker_api.rb","commit_id":"5edd72fb0ab8f6f13acdd996e478c052470e6348","created_at":"2014-05-07T22:09:18Z","updated_at":"2014-05-07T22:09:18Z","body":"Could
+        you make this name a bit more descriptive so I know what type of id it is?"}]'
+    http_version: 
+  recorded_at: Thu, 08 May 2014 21:20:49 GMT
+- request:
+    method: get
+    uri: https://<GITHUB_USERNAME>:<GITHUB_PASSWORD>@api.github.com/repos/bebepeng/peng-musulin-trackerhub/commits/bcd429a9baf1209e2de2d5a623e9775c61cc33e5/comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Thu, 08 May 2014 21:20:50 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4983'
+      X-Ratelimit-Reset:
+      - '1399587458'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Etag:
+      - '"85eb2aa14370861c9445fbf09bafadec"'
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3
+      Link:
+      - <https://api.github.com/repositories/19547116/commits/bcd429a9baf1209e2de2d5a623e9775c61cc33e5/comments?page=0>;
+        rel="last"
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Length:
+      - '2'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - AD0E15D1:6B87:78B6855:536BF532
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - a8d8e492d6966f0c23dee2eed64c678a
+    body:
+      encoding: UTF-8
+      string: "[]"
+    http_version: 
+  recorded_at: Thu, 08 May 2014 21:20:50 GMT
+recorded_with: VCR 2.9.0

@@ -31,11 +31,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 0ecf403ec292724c1d0cc67ae2b36c06
+      - f2a696b42809647d7bcf71160900ecf4
       X-Runtime:
-      - '0.212565'
+      - '0.199653'
       Date:
-      - Thu, 08 May 2014 21:20:45 GMT
+      - Thu, 08 May 2014 21:19:24 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -368,7 +368,7 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 21:20:45 GMT
+  recorded_at: Thu, 08 May 2014 21:20:37 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075508/stories
@@ -410,11 +410,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - fb1fc19ef7f80c096dec2636b307a772
+      - cd0b9550805311fdd027b784e8fcc5a5
       X-Runtime:
-      - '0.041950'
+      - '0.031597'
       Date:
-      - Thu, 08 May 2014 21:19:32 GMT
+      - Thu, 08 May 2014 21:20:38 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -585,7 +585,7 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 21:20:45 GMT
+  recorded_at: Thu, 08 May 2014 21:20:37 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075508/stories
@@ -627,11 +627,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - f6cd1524983dac08ee98f0b1dad93158
+      - 868051b144c3fa395b7aec2a1e01c026
       X-Runtime:
-      - '0.030603'
+      - '0.031377'
       Date:
-      - Thu, 08 May 2014 21:20:46 GMT
+      - Thu, 08 May 2014 21:20:38 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -802,7 +802,7 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 21:20:45 GMT
+  recorded_at: Thu, 08 May 2014 21:20:38 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075508/stories/70885548/comments
@@ -836,11 +836,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 1fd699918a4458cd30703ce19a12e354
+      - 2e8b701023ef7d0ed896986cffe1f6de
       X-Runtime:
-      - '0.028817'
+      - '0.034456'
       Date:
-      - Thu, 08 May 2014 21:20:46 GMT
+      - Thu, 08 May 2014 21:19:25 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -890,7 +890,7 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 21:20:46 GMT
+  recorded_at: Thu, 08 May 2014 21:20:38 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075508/stories/70885550/comments
@@ -924,11 +924,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 0e7f5243f3d073140b2989c989eff834
+      - 9506ab288999f0f9800dd6903e7993a2
       X-Runtime:
-      - '0.037661'
+      - '0.029924'
       Date:
-      - Thu, 08 May 2014 21:19:33 GMT
+      - Thu, 08 May 2014 21:20:38 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -960,7 +960,7 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 21:20:46 GMT
+  recorded_at: Thu, 08 May 2014 21:20:38 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075508/stories/70885552/comments
@@ -994,11 +994,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 3cc6acd22c520fe203586d28b8e0ee16
+      - 37cf94823a8006f994ce2011e59712bb
       X-Runtime:
-      - '0.030683'
+      - '0.033287'
       Date:
-      - Thu, 08 May 2014 21:20:46 GMT
+      - Thu, 08 May 2014 21:20:39 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -1039,7 +1039,7 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 21:20:46 GMT
+  recorded_at: Thu, 08 May 2014 21:20:38 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075508/stories/70885554/comments
@@ -1073,11 +1073,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - ca14cc0814aac447a8c20e3cbf644cb2
+      - 6c604cf375e28702a9f1d9b73d0e34e9
       X-Runtime:
-      - '0.032315'
+      - '0.033816'
       Date:
-      - Thu, 08 May 2014 21:20:47 GMT
+      - Thu, 08 May 2014 21:20:39 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -1099,7 +1099,7 @@ http_interactions:
 
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 21:20:46 GMT
+  recorded_at: Thu, 08 May 2014 21:20:39 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075508/stories/70885556/comments
@@ -1133,11 +1133,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - f7bf1b770fcc260fcd05e95c2c85476a
+      - bed283a41608cf98f1520b87bdaca216
       X-Runtime:
-      - '0.029262'
+      - '0.033655'
       Date:
-      - Thu, 08 May 2014 21:20:47 GMT
+      - Thu, 08 May 2014 21:20:39 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -1159,7 +1159,7 @@ http_interactions:
 
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 21:20:47 GMT
+  recorded_at: Thu, 08 May 2014 21:20:39 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075508/stories/70885558/comments
@@ -1193,11 +1193,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - d895ba3cf26b40005568eba7515c0c26
+      - dc535144da7aad6b9d5274803db5b1d8
       X-Runtime:
-      - '0.028820'
+      - '0.032595'
       Date:
-      - Thu, 08 May 2014 21:20:47 GMT
+      - Thu, 08 May 2014 21:20:39 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -1219,7 +1219,7 @@ http_interactions:
 
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 21:20:47 GMT
+  recorded_at: Thu, 08 May 2014 21:20:39 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1075508/stories/70885560/comments
@@ -1253,11 +1253,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - e9f1a9be5a51c5cccf338f2a288c5905
+      - 0217230abf2193fd021a9328b72709f7
       X-Runtime:
-      - '0.032407'
+      - '0.049709'
       Date:
-      - Thu, 08 May 2014 21:20:47 GMT
+      - Thu, 08 May 2014 21:20:40 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -1279,7 +1279,7 @@ http_interactions:
 
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 21:20:47 GMT
+  recorded_at: Thu, 08 May 2014 21:20:39 GMT
 - request:
     method: get
     uri: https://<GITHUB_USERNAME>:<GITHUB_PASSWORD>@api.github.com/repos/bebepeng/peng-musulin-trackerhub/commits/e300e323a4dfa3a42435705f70299456c9cb7865/comments
@@ -1301,7 +1301,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 08 May 2014 21:20:48 GMT
+      - Thu, 08 May 2014 21:20:40 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -1311,7 +1311,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4988'
+      - '4994'
       X-Ratelimit-Reset:
       - '1399587458'
       Cache-Control:
@@ -1337,13 +1337,13 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - AD0E15D1:6B88:A78E48D:536BF530
+      - AD0E15D1:6B88:A78D91C:536BF528
       Strict-Transport-Security:
       - max-age=31536000
       X-Content-Type-Options:
       - nosniff
       X-Served-By:
-      - 62a1303ae95931e56e387e87d354bb24
+      - 6d7de9e645814cac34ea2a8d72ba3141
     body:
       encoding: UTF-8
       string: '[{"url":"https://api.github.com/repos/bebepeng/peng-musulin-trackerhub/comments/6247883","html_url":"https://github.com/bebepeng/peng-musulin-trackerhub/commit/e300e323a4dfa3a42435705f70299456c9cb7865#commitcomment-6247883","id":6247883,"user":{"login":"msgehard","id":128210,"avatar_url":"https://avatars.githubusercontent.com/u/128210?","gravatar_id":"b09d62315dbafc471538dd71d404ad48","url":"https://api.github.com/users/msgehard","html_url":"https://github.com/msgehard","followers_url":"https://api.github.com/users/msgehard/followers","following_url":"https://api.github.com/users/msgehard/following{/other_user}","gists_url":"https://api.github.com/users/msgehard/gists{/gist_id}","starred_url":"https://api.github.com/users/msgehard/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/msgehard/subscriptions","organizations_url":"https://api.github.com/users/msgehard/orgs","repos_url":"https://api.github.com/users/msgehard/repos","events_url":"https://api.github.com/users/msgehard/events{/privacy}","received_events_url":"https://api.github.com/users/msgehard/received_events","type":"User","site_admin":false},"position":7,"line":7,"path":"spec/models/tracker_api_spec.rb","commit_id":"e300e323a4dfa3a42435705f70299456c9cb7865","created_at":"2014-05-07T22:06:47Z","updated_at":"2014-05-07T22:06:47Z","body":"Mutating
@@ -1355,7 +1355,7 @@ http_interactions:
         take some time to integrate VCR and make sure you can run your tests even
         when you wireless connection is turned off."}]'
     http_version: 
-  recorded_at: Thu, 08 May 2014 21:20:48 GMT
+  recorded_at: Thu, 08 May 2014 21:20:40 GMT
 - request:
     method: get
     uri: https://<GITHUB_USERNAME>:<GITHUB_PASSWORD>@api.github.com/repos/bebepeng/peng-musulin-trackerhub/commits/5edd72fb0ab8f6f13acdd996e478c052470e6348/comments
@@ -1377,7 +1377,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 08 May 2014 21:20:48 GMT
+      - Thu, 08 May 2014 21:20:40 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -1387,7 +1387,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4987'
+      - '4993'
       X-Ratelimit-Reset:
       - '1399587458'
       Cache-Control:
@@ -1413,19 +1413,19 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - AD0E15D1:6B88:A78E50D:536BF530
+      - AD0E15D1:6B87:78B5F24:536BF528
       Strict-Transport-Security:
       - max-age=31536000
       X-Content-Type-Options:
       - nosniff
       X-Served-By:
-      - 3061975e1f37121b3751604ad153c687
+      - 132026e9262a0093e437f99db5f1e499
     body:
       encoding: UTF-8
       string: '[{"url":"https://api.github.com/repos/bebepeng/peng-musulin-trackerhub/comments/6247916","html_url":"https://github.com/bebepeng/peng-musulin-trackerhub/commit/5edd72fb0ab8f6f13acdd996e478c052470e6348#commitcomment-6247916","id":6247916,"user":{"login":"msgehard","id":128210,"avatar_url":"https://avatars.githubusercontent.com/u/128210?","gravatar_id":"b09d62315dbafc471538dd71d404ad48","url":"https://api.github.com/users/msgehard","html_url":"https://github.com/msgehard","followers_url":"https://api.github.com/users/msgehard/followers","following_url":"https://api.github.com/users/msgehard/following{/other_user}","gists_url":"https://api.github.com/users/msgehard/gists{/gist_id}","starred_url":"https://api.github.com/users/msgehard/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/msgehard/subscriptions","organizations_url":"https://api.github.com/users/msgehard/orgs","repos_url":"https://api.github.com/users/msgehard/repos","events_url":"https://api.github.com/users/msgehard/events{/privacy}","received_events_url":"https://api.github.com/users/msgehard/received_events","type":"User","site_admin":false},"position":5,"line":16,"path":"app/models/tracker_api.rb","commit_id":"5edd72fb0ab8f6f13acdd996e478c052470e6348","created_at":"2014-05-07T22:09:18Z","updated_at":"2014-05-07T22:09:18Z","body":"Could
         you make this name a bit more descriptive so I know what type of id it is?"}]'
     http_version: 
-  recorded_at: Thu, 08 May 2014 21:20:48 GMT
+  recorded_at: Thu, 08 May 2014 21:20:40 GMT
 - request:
     method: get
     uri: https://<GITHUB_USERNAME>:<GITHUB_PASSWORD>@api.github.com/repos/bebepeng/peng-musulin-trackerhub/commits/bcd429a9baf1209e2de2d5a623e9775c61cc33e5/comments
@@ -1447,7 +1447,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 08 May 2014 21:20:48 GMT
+      - Thu, 08 May 2014 21:20:41 GMT
       Content-Type:
       - application/json; charset=utf-8
       Status:
@@ -1455,7 +1455,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4986'
+      - '4992'
       X-Ratelimit-Reset:
       - '1399587458'
       Cache-Control:
@@ -1486,16 +1486,16 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - AD0E15D1:6B89:CE6C469:536BF530
+      - AD0E15D1:6B89:CE6B5AB:536BF528
       Strict-Transport-Security:
       - max-age=31536000
       X-Content-Type-Options:
       - nosniff
       X-Served-By:
-      - d818ddef80f4c7d10683dd483558952a
+      - a8d8e492d6966f0c23dee2eed64c678a
     body:
       encoding: UTF-8
       string: "[]"
     http_version: 
-  recorded_at: Thu, 08 May 2014 21:20:48 GMT
+  recorded_at: Thu, 08 May 2014 21:20:40 GMT
 recorded_with: VCR 2.9.0

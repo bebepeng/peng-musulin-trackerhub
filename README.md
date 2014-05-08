@@ -24,6 +24,6 @@ Setup Instructions
 
 Gotchas
 -------
-* Your Tracker API Token is sensitive information.
+* Your Tracker API Token and Github Password are sensitive information.
    We have configured VCR to not record this info, and your .env file is in your .gitingore file.
    Any additional features requiring sensitive data that you add and test with VCR should be configured similarly.

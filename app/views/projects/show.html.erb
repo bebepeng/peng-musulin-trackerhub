@@ -13,3 +13,11 @@
   <% end %>
 </ul>
 <hr>
+
+<h2>Github Comments</h2>
+<ul>
+  <% @github_comments.each do |comment| %>
+    <li><%= comment["body"] %></li>
+  <% end %>
+</ul>
+<hr>

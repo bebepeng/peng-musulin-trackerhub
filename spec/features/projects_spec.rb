@@ -35,5 +35,16 @@ feature 'projects' do
         expect(page).to have_content 'This is a second test comment on the first story'
       end
     end
+
+    scenario "Users can see github comments associated with the tracker project" do
+      visit '/'
+      VCR.use_cassette('features/stories_index/github_comments') do
+        click_on 'View projects'
+        click_on "Peng and Musulin's TrackerHub"
+
+        expect(page).to have_content 'Mutating projects with the .map! method changes the contents of project.'
+        expect(page).to have_content 'Please take some time to integrate VCR and make sure you can run your tests even when you wireless connection is turned off.'
+      end
+    end
   end
 end

@@ -9,5 +9,7 @@ class ProjectsController < ApplicationController
     tracker = TrackerApi.new(ENV['TRACKER_TOKEN'])
     @stories = tracker.stories(params[:id])
     @comments = tracker.comments(params[:id])
+    github = GithubApi.new(@comments)
+    @github_comments = github.comments
   end
 end
