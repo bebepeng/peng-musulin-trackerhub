@@ -9,7 +9,7 @@ class GithubApi
   end
 
   def comments
-    relevent_comments = tracker_comments.select { |comment| comment["text"].include?("Commit by") }
+    relevent_comments = tracker_comments.select { |comment| comment.has_key?("text") && comment["text"].include?("Commit by") }
     relevent_comments.each_with_object([]) do |comment, comments_array|
       body_parsed = comment['text'].split('/')
       git_username = body_parsed[3]
